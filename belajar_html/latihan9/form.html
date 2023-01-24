@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar html - form</title>
+</head>
+
+<body>
+    <h1>Registrasi Karyawan Baru</h1>
+    <form>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td>:</td>
+                <td><input type="text" id="username" /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password : </label></td>
+                <td>:</td>
+                <td><input type="password" id="password" /></td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobby</label></td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="makan" />
+                    <label for="makan">Makan</label>
+                    <br />
+                    <input type="checkbox" id="berenang" />
+                    <label for="berenang">Berenang</label>
+                    <br />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="jk">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="pria" name="jk" /><label for="pria">Pria</label
+            >
+            <br />
+            <input type="radio" id="wanita" name="jk" /><label for="wanita"
+              >Wanita</label
+            >
+            <br />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lulusan">Lulusan</label></td>
+                <td>:</td>
+                <td>
+                    <select name="lulusan" id="lulusan">
+              <option value="sma">SMA</option>
+              <option value="d3">D3</option>
+              <option value="s1">S1</option>
+            </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td>
+                    <textarea name="alamat" id="alamat" cols="20" rows="2"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
