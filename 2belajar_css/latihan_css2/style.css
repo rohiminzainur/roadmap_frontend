@@ -1,0 +1,45 @@
+h1 {
+    /* color */
+    /* nama warna */
+    color: red;
+    /* hexadecimal */
+    color: #ff0000;
+    /* rgb */
+    color: rgb(255, 0, 0);
+}
+
+h2 {
+    color: blue;
+    /* text-align */
+    text-align: center;
+    /* text-indent */
+    text-indent: 200px;
+    /* text-decoration */
+    text-decoration: overline;
+    /* text-transform */
+    text-transform: uppercase;
+    /* letter-spacing */
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: green;
+    text-align: right;
+}
+
+h4 {
+    color: brown;
+    text-align: justify;
+}
+
+h5 {
+    color: blueviolet;
+    text-align: right;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    /* word-spacing */
+    word-spacing: 5px;
+}

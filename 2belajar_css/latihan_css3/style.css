@@ -1,0 +1,12 @@
+body {
+    /* background-color */
+    background-color: lightblue;
+    /* background-image */
+    background-image: url(img/image1.png);
+    /* background-position */
+    background-position: right center;
+    /* background-repeat */
+    background-repeat: no-repeat;
+    /* contoh simple css */
+    /* background: red url(img/image1.png) right center no-repeat; */
+}

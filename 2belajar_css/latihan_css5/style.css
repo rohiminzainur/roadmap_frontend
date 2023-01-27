@@ -1,0 +1,68 @@
+.hello:link {
+    color: yellow;
+}
+
+
+/* Mengubah font, ukuran, dan warna ketika hover atau terdapat mouse di atas nya */
+
+.hello:hover {
+    font-family: arial;
+    font-size: 20px;
+    color: green;
+}
+
+
+/* Mengubah font ketika diklik */
+
+.hello:active {
+    font-style: italic;
+}
+
+
+/* Mengubah warna jika sudah pernah diklik */
+
+.hello:visited {
+    color: red;
+}
+
+
+/* Mengubah warna pada li pertama */
+
+li:first-child a {
+    color: green;
+}
+
+
+/* Mengubah warna pada li terakhir */
+
+li:last-child a {
+    color: green;
+}
+
+
+/* Mengubah warna pada li nilai ke 3 dikurang 1 */
+
+li:nth-child(3n-1) a {
+    color: green;
+}
+
+
+/* Mengubah warna pada li ganjil ketika hover */
+
+li:nth-child(odd) a:hover {
+    color: red;
+}
+
+
+/* Mengubah warna paragraf pertama */
+
+p:first-of-type {
+    color: red;
+}
+
+
+/* Mengubah warna paragraf terakhir */
+
+p:last-of-type {
+    color: blue;
+}
