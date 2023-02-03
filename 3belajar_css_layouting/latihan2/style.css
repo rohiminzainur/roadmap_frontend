@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.dua {
+    width: 120%;
+    height: 100px;
+    background-color: red;
+    /* overflow: auto;
+    overflow: hidden; */
+    overflow: scroll;
+    /* overflow: visible; */
+}

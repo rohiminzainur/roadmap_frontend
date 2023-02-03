@@ -1,0 +1,251 @@
+body {
+    font: 12px/18px arial sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+.top-bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 99999px;
+}
+
+.top-bar ul {
+    position: relative;
+    margin-left: 60px;
+}
+
+.top-bar li {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 10px;
+}
+
+.top-bar li a {
+    text-decoration: none;
+    color: salmon;
+    font-weight: bold;
+}
+
+.top-bar a:hover {
+    color: wheat;
+}
+
+.top-bar img {
+    width: 50px;
+    top: 0;
+    right: 614px;
+    position: absolute;
+}
+
+.top-bar button {
+    top: 7px;
+    right: 100px;
+    background-color: salmon;
+    border-radius: 5px;
+    line-height: 30px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    border: 0;
+    color: wheat;
+}
+
+.top-bar button:hover {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 1063px;
+    margin: 50px auto;
+    position: relative;
+    z-index: -100;
+    background-color: rgb(245, 245, 245);
+}
+
+.hero {
+    background-color: black;
+    top: 0;
+    bottom: 1189px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    right: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(245, 245, 245);
+    background-image: url(../img/2017-04-24_00-18-10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -75px;
+    opacity: 0.7;
+}
+
+.header h1 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 100px;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.bunga1 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    z-index: 1;
+}
+
+.bunga2 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -1px;
+    left: -90px;
+    transform: rotate(45deg);
+    transform: scaleY(-1);
+    z-index: 1;
+}
+
+.bunga3 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -100px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bunga4 img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: -63px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bunga5 img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: 0;
+    z-index: 1;
+}
+
+.bunga6 img {
+    width: 435px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: -45px;
+    transform: scaleY(-1);
+    z-index: 1;
+}
+
+.nama {
+    position: absolute;
+    top: 11px;
+    left: 72px;
+    z-index: 99999;
+}
+
+.nama h1 {
+    font-size: 52px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.nama .suami {
+    color: rgb(251, 182, 53);
+}
+
+.nama .istri {
+    color: white;
+}
+
+
+/* content  */
+
+.content {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    color: salmon;
+    letter-spacing: 10px;
+}
+
+.content h1 {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.content img {
+    width: 334px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    box-shadow: -2px 1px 9px 1px rgba(0, 0, 0, 0.79);
+    -webkit-box-shadow: -2px 1px 9px 1px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: -2px 1px 9px 1px rgba(0, 0, 0, 0.79);
+}
+
+.alamat {
+    position: relative;
+}
+
+.alamat h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.alamat iframe {
+    width: 500px;
+    height: 500px;
+}
+
+.alamat img {
+    width: 300px;
+    height: 500px;
+}
+
+.alamat h2 {
+    position: absolute;
+    top: 260px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: wheat;
+    line-height: 50px;
+}
