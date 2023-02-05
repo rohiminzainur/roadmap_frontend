@@ -1,36 +1,54 @@
 body {
-    height: 2000px;
+  height: 2000px;
 }
 
 div {
-    width: 200px;
-    height: 200px;
-    margin: auto;
+  width: 200px;
+  height: 200px;
+  margin: auto;
 }
 
 .container {
-    width: 500px;
-    height: 540px;
-    border: 5px solid black;
-    position: relative;
+  width: 500px;
+  height: 540px;
+  border: 5px solid black;
+  position: relative;
 }
 
 .satu {
-    background-color: blue;
-    position: fixed;
-    margin-left: 200px;
+  background-color: blue;
+  position: fixed;
+  margin-left: 200px;
 }
 
 .dua {
-    background-color: red;
-    top: 0;
-    left: 0;
-    position: absolute;
+  background-color: red;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 .tiga {
-    background-color: green;
-    position: relative;
-    left: 20px;
-    top: -20px;
+  background-color: green;
+  position: relative;
+  left: 20px;
+  top: -20px;
+}
+
+.mask1 h1 {
+  color: #000;
+  text-align: center;
+  font-size: 150px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  /* margin: 200px auto; */
+  background-image: url(../img/2017-04-24_00-18-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: absolute;
+  z-index: 999999;
 }
