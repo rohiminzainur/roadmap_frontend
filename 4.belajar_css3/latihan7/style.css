@@ -1,0 +1,40 @@
+.kotak1 {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-image: radial-gradient(circle closest-side, red, green);
+}
+
+.kotak2 {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-image: radial-gradient(circle farthest-corner, red, green);
+}
+
+.kotak3 {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-image: radial-gradient(
+    circle farthest-side at top left,
+    red,
+    green
+  );
+}
+
+.kotak4 {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-image: radial-gradient(red 20%, green 50%, blue 30%);
+}
+
+.kotak5 {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  background-image: radial-gradient(ellipse, red, blue);
+}
+
+/* jangkauan closest-corner, closest-side, farthest-corner, farthest-side */
