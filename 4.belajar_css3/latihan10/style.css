@@ -1,0 +1,75 @@
+body {
+  text-align: center;
+}
+
+/* Efek filter
+- blur(px)
+- brightness(angka | %)
+- contrast(angka | %)
+- saturate(angka | %)
+- grayscale(angka | %)
+- sepia(angka | %)
+- hue-rotate(deg)
+- invert(angka | %)
+- opacity(angka | %)
+- drop-shadow(sama seperti box-shadow) */
+
+.gambar1 img {
+  filter: blur(10px);
+  margin: 20px;
+}
+
+.gambar2 img {
+  filter: brightness(150%);
+  margin: 20px;
+}
+
+.gambar3 img {
+  filter: contrast(500%);
+  margin: 20px;
+}
+
+.gambar4 img {
+  filter: saturate(250%);
+  margin: 20px;
+}
+
+.gambar5 img {
+  filter: grayscale(150%);
+  margin: 20px;
+}
+
+.gambar6 img {
+  filter: sepia(150%);
+  margin: 20px;
+}
+
+.gambar7 img {
+  filter: hue-rotate(150deg);
+  margin: 20px;
+}
+
+.gambar8 img {
+  filter: invert(150%);
+  margin: 20px;
+}
+
+.gambar9 img {
+  filter: opacity(0.5);
+  margin: 20px;
+}
+
+.gambar10 img {
+  filter: drop-shadow(10px 10px 20px black);
+  margin: 20px;
+}
+
+.gambar11 img {
+  filter: grayscale(5) blur(3px);
+  /* margin: 20px; */
+  transition: 2s;
+}
+
+.gambar11 img:hover {
+  filter: grayscale(0) blur(0);
+}

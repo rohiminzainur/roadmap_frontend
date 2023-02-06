@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/* vendor previx untuk chrome, opera versi terbaru, safari -webkit-
+vendor previx untuk firefox -moz-
+vendor previx untuk internet explorer -ms-
+vendor previx untuk opera versi terdahulu -o- */
