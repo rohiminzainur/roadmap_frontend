@@ -1,0 +1,71 @@
+/* scale(angka), scaleX(angka), scaleY(angka)
+rotate(deg), rotateX(deg), rotateY(deg)
+skew(deg), skewX(deg), skewY(deg)
+translate(px), translateX(px), translate(px) */
+
+/* translate sama dengan position absolute hanya saja lebih baik karena bergerak dengan hardware komputer sedangkan position absolute browser */
+
+.kotak1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 100px auto 0;
+  transition: 1s;
+}
+
+.kotak1:hover {
+  background-color: blue;
+  transform: scale(2);
+}
+
+.kotak2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 100px auto 0;
+  transition: 1s;
+}
+
+.kotak2:hover {
+  background-color: blue;
+  transform: rotate(45deg) rotateX(45deg) rotateY(45deg);
+}
+
+.kotak3 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 100px auto 0;
+  transition: 1s;
+}
+
+.kotak3:hover {
+  background-color: blue;
+  transform: skew(30deg);
+}
+
+.kotak4 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 100px auto 0;
+  transition: 1s;
+}
+
+.kotak4:hover {
+  background-color: blue;
+  transform: translate(50px, 100px);
+}
+
+.kotak5 {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  margin: 100px auto 0;
+  transition: 1s;
+}
+
+.kotak5:hover {
+  background-color: blue;
+  transform: scale(2) rotate(180deg) translate(25px) skew(45deg);
+}
