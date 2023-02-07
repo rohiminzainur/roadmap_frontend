@@ -1,0 +1,23 @@
+.kotak1 {
+  width: 200px;
+  height: 200px;
+  background-color: salmon;
+  /* Direction untuk digunakan normal | reverse | alternate | alternate-reverse */
+  animation: animasiKotak 2s ease 3 alternate forwards;
+  /* fill-mode agar animasi tidak loncat ke awal jika ganjil none | forwards | backwards | both */
+  /* play-state untuk berhenti atau menjalankan animasi running | pused */
+}
+
+@keyframes animasiKotak {
+  0% {
+    width: 200px;
+  }
+  50% {
+    width: 500px;
+    height: 200px;
+  }
+  100% {
+    width: 500px;
+    height: 500px;
+  }
+}
