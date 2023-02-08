@@ -82,7 +82,7 @@ h1 {
   z-index: 9999;
   transition: 0.8s ease-in;
   text-align: center;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .overlay:target {
@@ -121,7 +121,44 @@ h1 {
   animation: slideDownFade 0.5s 0.5s forwards;
 }
 
+/* navigasi */
+
+.overlay:target .next {
+  animation: fadeAja 0.5s 0.5s forwards;
+}
+
+.overlay:target .prev {
+  animation: fadeAja 0.5s 0.5s forwards;
+}
+
+.next,
+.prev {
+  width: 57px;
+  height: 93px;
+  background-image: url(../../../img/n.png);
+  position: absolute;
+  text-indent: -9999px;
+  top: 40%;
+  filter: invert(150%);
+  margin-left: 50px;
+  opacity: 0;
+}
+
+.prev {
+  background-image: url(../../../img/p.png);
+  margin-left: -100px;
+}
+
 /* Animation */
+
+@keyframes fadeAja {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 @keyframes zoomDanFade {
   0% {
