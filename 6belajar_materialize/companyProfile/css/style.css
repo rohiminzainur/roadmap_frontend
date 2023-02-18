@@ -1,0 +1,28 @@
+.slider h3,
+.slider h5,
+.clients h3 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.parallax-container {
+  height: 20%;
+}
+
+.parallax img {
+  filter: grayscale(1) opacity(0.5);
+}
+
+.clients img {
+  width: 150px;
+  height: 50px;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+.card-panel i {
+  text-align: center;
+}
