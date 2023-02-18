@@ -1,0 +1,8 @@
+section {
+  min-height: 420px;
+}
+
+hr {
+  border-top: 4px solid black;
+  width: 200px;
+}

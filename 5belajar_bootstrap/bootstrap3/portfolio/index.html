@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#home" class="navbar-brand page-scroll">Portfolio</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about" class="page-scroll">About</a></li>
+            <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+            <li><a href="#contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img class="img-circle" src="img/photo.png" alt="pp" />
+      <h1>M. Zainurrohimin</h1>
+      <p>Pemula | Web Developer</p>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row text-justify">
+          <div class="col-sm-5 col-sm-offset-1">
+            <p class="pKiri">
+              Saya adalah seorang web developer. Saya sangat familiar dengan
+              framework laravel untuk pembuatan website. Pada bulan juni 2021
+              saya mengikuti beasiswa digitalent dari kominfo sebagai Junior Web
+              Developer dan pada bulan maret 2022 saya mengikuti bootcamp dari
+              Eduwork.id sebagai Fullstack Web Developer.
+            </p>
+          </div>
+          <div class="col-sm-5">
+            <p class="pKanan">
+              Maret 2022 s/d Agustus 2022 FULLSTACK WEB DEVELOPER (Bootcamp)
+              Eduwork.id Disini saya belajar menjadi fullstack web developer
+              dibimbing oleh mentor bernama Ferdina Kusumah selama 6 bulan.
+              <br />
+              Juli 2021 s/d Agustus 2021 DIGITALENT KOMINFO Telkom University
+              Mengikuti program dari pemerintah untuk menciptakan talent web
+              developer. Didalam program ini saya belajar user interface dan
+              struktur program yang baik untuk user.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Portfolio -->
+    <div id="gallery"></div>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h2>Portfolio</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row gallery">
+          <div class="col-sm-4 gambar">
+            <a href="#gambar1" class="thumbnail">
+              <img src="img/1.jpg" alt="" />
+            </a>
+            <div class="overlay" id="gambar1">
+              <a href="#gallery" class="close">x</a>
+              <a href="#gambar6" class="prev">prev</a>
+              <img src="img/1.jpg" alt="photo1" />
+              <a href="#gambar2" class="next">next</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <a href="#gambar2" class="thumbnail">
+              <img src="img/2.jpg" alt="" />
+            </a>
+            <div class="overlay" id="gambar2">
+              <a href="#gallery" class="close">x</a>
+              <a href="#gambar1" class="prev">prev</a>
+              <img src="img/2.jpg" alt="photo2" />
+              <a href="#gambar3" class="next">next</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <a href="#gambar3" class="thumbnail">
+              <img src="img/3.jpg" alt="" />
+            </a>
+            <div class="overlay" id="gambar3">
+              <a href="#gallery" class="close">x</a>
+              <a href="#gambar2" class="prev">prev</a>
+              <img src="img/3.jpg" alt="photo3" />
+              <a href="#gambar4" class="next">next</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <a href="#gambar4" class="thumbnail">
+              <img src="img/4.jpg" alt="" />
+            </a>
+            <div class="overlay" id="gambar4">
+              <a href="#gallery" class="close">x</a>
+              <a href="#gambar3" class="prev">prev</a>
+              <img src="img/4.jpg" alt="photo4" />
+              <a href="#gambar5" class="next">next</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <a href="#gambar5" class="thumbnail">
+              <img src="img/5.jpg" alt="" />
+            </a>
+            <div class="overlay" id="gambar5">
+              <a href="#gallery" class="close">x</a>
+              <a href="#gambar4" class="prev">prev</a>
+              <img src="img/5.jpg" alt="photo5" />
+              <a href="#gambar6" class="next">next</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <a href="#gambar6" class="thumbnail">
+              <img src="img/6.jpg" alt="" />
+            </a>
+            <div class="overlay" id="gambar6">
+              <a href="#gallery" class="close">x</a>
+              <a href="#gambar5" class="prev">prev</a>
+              <img src="img/6.jpg" alt="photo6" />
+              <a href="#gambar1" class="next">next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h2>Contact</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="username"
+                  id="username"
+                  placeholder="Isi Username"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                  placeholder="Isi Email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="telp">No. Telepon</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  name="telp"
+                  id="telp"
+                  placeholder="Isi No Telepon"
+                />
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>-- Choose Category --</option>
+                  <option>Web Design</option>
+                  <option>Web Programming</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="10"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              Copyright &copy; 2023 | build by.
+              <a href="https://www.instagram.com/zn_infinite/">zn_infinite</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <a
+              href="https://www.youtube.com/channel/UC5Sr27tDvKZBRZv7UHN8N-A"
+              class="btn btn-danger"
+              ><i class="glyphicon glyphicon-play"></i> Subscribe to Youtube</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
