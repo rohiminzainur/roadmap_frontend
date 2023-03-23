@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 80px 80px;
+    grid-template-columns: 120px 180px 120px;
+    gap: 5px;
+    /* align-content: start; */
+    /* align-content: end; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+}
+
+.items {
+    border: 3px solid black;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(116, 116, 243);
+}

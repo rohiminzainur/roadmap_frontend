@@ -1,0 +1,27 @@
+html,
+body {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.item {
+    background-color: rgb(158, 218, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: salmon;
+}

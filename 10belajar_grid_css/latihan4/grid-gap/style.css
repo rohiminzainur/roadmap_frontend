@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 10px;
+    row-gap: 10px; */
+    gap: 10px;
+}
+
+.item {
+    background-color: rgb(41, 235, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+.item:nth-child(even) {
+    background-color: salmon;
+}
+
+
+/* Responsive Breakpoint */
+
+@media screen and (min-width: 576px) {
+    .container {
+        grid-template-areas: "header header header""sidebar content content""sidebar content content""footer footer footer";
+    }
+}
