@@ -1,0 +1,58 @@
+// .main {
+//     background-color: red;
+//     .main-heading {
+//         font-size: 2em;
+//     }
+//     .main-paragraph {
+//         font-size: 1.4em;
+//     }
+// }
+// .main,
+// .footer {
+//     h1,
+//     p {
+//         letter-spacing: 1px;
+//     }
+// }
+// &
+// Parent selector
+// .main {
+//     .container & {
+//         background-color: salmon;
+//     }
+//     .main-heading {
+//         font-size: 2em;
+//     }
+//     &:hover {
+//         background-color: blue;
+//         color: white;
+//     }
+// }
+.main {
+    #{&}-heading {
+        font-size: 2em;
+        background-color: blue;
+        color: white;
+        transition: all 1s;
+    }
+
+    #{&}-heading:hover {
+        transform: scale(1.2, 1.5) rotate(360deg);
+    }
+
+    #{&}-paragraph {
+        font-size: 1.4em;
+        background-color: salmon;
+        color: white;
+    }
+}
+
+.footer {
+    #{&}-heading {
+        font-size: 1.6em;
+    }
+
+    #{&}-paragraph {
+        font-size: 1.4em;
+    }
+}
