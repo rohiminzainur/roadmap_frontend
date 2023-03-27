@@ -1,0 +1,57 @@
+// Mixin
+// Simple Mixin untuk fungsi berulang
+@mixin inline-style {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: yellow;
+        }
+    }
+}
+
+.header ul {
+    @include inline-style();
+
+    li {
+        background-color: blue;
+        padding: 0.7em;
+    }
+}
+
+.footer ul {
+    @include inline-style();
+
+    li {
+        background-color: green;
+        padding: 0.4em;
+    }
+}
+
+// Arguments pada mixin
+@mixin flexbox($space: center, $align, $direction: row) {
+    display: flex;
+    justify-content: $space;
+    align-items: $align;
+    flex-direction: $direction;
+    background-color: #eaeaea
+}
+
+.container {
+    @include flexbox(space-between, center, row-reverse);
+    width: 600px;
+    height: 400px;
+
+    .box {
+        width: 60px;
+        height: 60px;
+        background-color: red;
+        text-align: center;
+        line-height: 60px;
+    }
+}

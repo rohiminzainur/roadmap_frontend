@@ -1,0 +1,25 @@
+// Mixin
+// Simple Mixin untuk fungsi berulang
+@mixin inline-style {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: yellow;
+        }
+    }
+}
+
+// Arguments pada mixin
+@mixin flexbox($space: center, $align, $direction: row) {
+    display: flex;
+    justify-content: $space;
+    align-items: $align;
+    flex-direction: $direction;
+    background-color: #eaeaea
+}

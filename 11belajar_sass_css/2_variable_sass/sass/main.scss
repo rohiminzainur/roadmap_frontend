@@ -1,0 +1,36 @@
+// Css Variables
+// :root {
+//     --primary-color: blue;
+//     --secondary-color: orange;
+//     --text-color: rgb(255, 255, 255);
+// }
+// body {
+//     background-color: var(--primary-color);
+// }
+// h1 {
+//     color: var(--text-color);
+// }
+// p {
+//     color: var(--text-color);
+// }
+// Sass Variable || disebut variable global karena diluar element
+// $secondary-color: white;
+// $text-color: blue;
+// $primary-color: green;
+// body {
+// Mengubah variable lokal menjadi global ditambah !global
+//     $primary-color: red !global;
+//     background-color: $primary-color;
+// }
+// h1 {
+//     color: $secondary-color;
+// }
+// p {
+//     color: $primary-color;
+// }
+// Map
+$alert: ('danger': red, 'success': green, 'warning': orange);
+
+h1 {
+    color: map-get($alert, 'success');
+}

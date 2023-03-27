@@ -1,0 +1,8 @@
+.header ul {
+    @include inline-style();
+
+    li {
+        background-color: blue;
+        padding: 0.7em;
+    }
+}

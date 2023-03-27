@@ -34,11 +34,10 @@ body {
 .hero {
     grid-area: hero;
     min-height: 350px;
-    background-image: url('img/20220602_161745.jpg');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("img/20220602_161745.jpg");
     background-size: cover;
     background-position: center;
     padding: 50px;
-    position: relative;
 }
 
 .hero>* {
@@ -56,40 +55,16 @@ body {
 
 .feature-1 {
     grid-area: feature-1;
-    background-image: url("img/1.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("img/1.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
-}
-
-.feature-1::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 .feature-2 {
     grid-area: feature-2;
-    background-image: url("img/rsz_20220531_191429.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("img/20220630_210652.jpg");
     background-size: cover;
     background-position: center;
-    position: relative;
-}
-
-.feature-2::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    display: block;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 .features .price {

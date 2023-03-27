@@ -1,0 +1,8 @@
+.footer ul {
+    @include inline-style();
+
+    li {
+        background-color: green;
+        padding: 0.4em;
+    }
+}
