@@ -1,0 +1,18 @@
+:root {
+    --warna-tema: 2 132 199;
+    --warna-pink: 236 72 153;
+    --warna-biru: 2 132 199;
+    --warna-orange: 249 115 22;
+
+    --warna-tema: var(--warna-orange);
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kotak {
+    @apply w-[100px] h-[100px] m-10;
+    background-color: theme(colors.hijau / 50%);
+}
