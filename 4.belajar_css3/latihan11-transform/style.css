@@ -3,6 +3,7 @@ rotate(deg), rotateX(deg), rotateY(deg)
 skew(deg), skewX(deg), skewY(deg)
 translate(px), translateX(px), translate(px) */
 
+
 /* translate sama dengan position absolute hanya saja lebih baik karena bergerak dengan hardware komputer sedangkan position absolute browser */
 
 .kotak1 {
