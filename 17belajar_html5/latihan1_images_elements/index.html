@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar html5 - image elements</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.125em;
+            line-height: 1.6;
+            color: #333;
+            padding: 2em;
+        }
+
+        .hero {
+            display: grid;
+            gap: 2em;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media(min-width: 950px) {
+            .hero {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Hello Boy</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit blanditiis, a excepturi nihil
+                omnis quibusdam culpa deleniti optio corrupti cupiditate odit asperiores nulla, repudiandae harum
+                praesentium quod soluta nam consectetur.</p>
+        </div>
+        <picture>
+            <source media="(min-width: 960px)" srcset="img/cat-large.jpg" sizes="50vw">
+            <source media="(min-width: 600px)" srcset="img/cat-medium.jpg">
+            <img src="img/cat-small.jpg" alt="">
+        </picture>
+    </div>
+</body>
+
+</html>
